@@ -1,5 +1,5 @@
-<%= session[:player_1_name] %> vs. <%= session[:player_2_name] %>
-<h2><%= session[:player_2_name] %> : <%= @starting_hp %></h2>
+<%= $player_1.name %> vs. <%= $player_2.name %>
+<h2><%= $player_2.name %> : <%= @starting_hp %></h2>
 
 
 <form action="/attack">
