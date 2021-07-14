@@ -7,6 +7,5 @@ feature 'Enter names' do
     
     expect(page).to have_content 'Spiderman vs. Batman'
 
-    save_and_open_page
   end
 end
