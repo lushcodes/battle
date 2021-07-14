@@ -1,2 +1,7 @@
 <%= session[:player_1_name] %> vs. <%= session[:player_2_name] %>
-<h2><%= session[:player_2_name] %> hit points : <%= @starting_hp %></h2>
+<h2><%= session[:player_2_name] %> : <%= @starting_hp %></h2>
+
+
+<form action="/attack">
+    <input type="submit" value="Attack" />
+</form>
